@@ -11,18 +11,18 @@ class App extends React.Component {
 
     render() {
         return (
-            <Container className="bg-light shadow text-center">
+            <Container fluid className="bg-light shadow text-center">
                 <img className="mt-5 rounded-circle shadow" src={pic} width="200px" height="200px"/>
                 <div className="row">
 
-                    <div className="col-sm-12">
+                    <div className="col-xs-12">
                         <h1 className="display-4 my-2">Damjan Boshkovski</h1>
                         <hr className="w-25 mx-auto my-3 border "/>
                     </div>
-                    <div className="col-sm-12">
+                    <div className="col-xs-12">
                         <h4 className="badge bg-info text-muted">Skopje, Macedonia</h4>
                     </div>
-                    <div className="col-sm-6 mx-auto mt-1">
+                    <div className="col-xs-6 mx-auto mt-1">
                         <p className="text-muted fw-lighter">
                             Passionate student in his final student years looking forward for an opportunity to work
                             on real
@@ -37,8 +37,8 @@ class App extends React.Component {
 
                 </div>
                 <div className="row">
-                    <div className="col-sm-12">
-                        <div className="card w-50 mt-2 mx-auto shadow">
+                    <div className="col-xs-12 col-sm-12 mx-auto col-md-7">
+                        <div className="card mt-2 mx-auto shadow">
                             <div className="card-body ">
                                 <h4 className="card-title">Contact</h4>
                                 <p className="card-text text-muted">damjanx34@gmail.com</p>
@@ -51,7 +51,7 @@ class App extends React.Component {
                     </div>
                 </div>
                 <div className="row mt-3">
-                    <div className="col-sm-12 w-50 mx-auto shadow p-2">
+                    <div className="col-xs-12 col-sm-12 mx-auto col-md-6">
                         <Accordion defaultActiveKey="0">
                             <Accordion.Item eventKey={0}>
                                 <Accordion.Header>
