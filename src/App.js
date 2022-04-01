@@ -11,7 +11,7 @@ class App extends React.Component {
 
     render() {
         return (
-            <Container fluid className="bg-light shadow text-center">
+            <Container className="bg-light shadow text-center">
                 <img className="mt-5 rounded-circle shadow" src={pic} width="200px" height="200px"/>
                 <div className="row">
 
