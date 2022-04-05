@@ -88,7 +88,7 @@ class App extends React.Component {
                                 </Accordion.Header>
                                 <Accordion.Body>
                                     <ul className="list-group shadow text-muted">
-                                        <li className="list-group-item active">Vuejs</li>
+                                        <li className="list-group-item list-group-item-dark">Vuejs</li>
                                         <li className="list-group-item list-group-item-light">React</li>
                                         <li className="list-group-item list-group-item-dark">Angular</li>
                                         <li className="list-group-item list-group-item-light">Javascript</li>
