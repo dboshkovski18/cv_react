@@ -102,6 +102,7 @@ class App extends React.Component {
                                         <li className="list-group-item list-group-item-dark">C#</li>
                                         <li className="list-group-item list-group-item-light">Spring Boot</li>
                                         <li className="list-group-item list-group-item-dark">SQL</li>
+                                         <li className="list-group-item list-group-item-light">Docker</li>
                                     </ul>
                                 </Accordion.Body>
                             </Accordion.Item>
