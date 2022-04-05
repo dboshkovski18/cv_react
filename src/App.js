@@ -44,8 +44,7 @@ class App extends React.Component {
                                 <p className="card-text text-muted">damjanx34@gmail.com</p>
                                 <p className="card-text text-muted">075/447-837</p>
                                 <a className="btn btn-outline-secondary d-block"
-                                   href="https://github.com/dboshkovski18/miniWebProjects">Click for some Vuejs
-                                    examples</a>
+                                   href="https://github.com/dboshkovski18">Github</a>
                             </div>
                         </div>
                     </div>
